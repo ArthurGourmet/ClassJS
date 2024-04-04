@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --colordark: #002333;
+    --colormedium: #159A9C;
+    --colorlight: #DEEFE7;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--colormedium);
+    height: 100vh;   
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instruçoes{
+    padding: 1rem;
+    background-color: var(--colordrak-);
+    color: var(--colorligth-);
+}
+section{
+    padding: 2rem;
+    background-color: var(--colorligth-);
+    color: var(--colordrak-);
+    width: 80rem;
+}
+h1{
+    font-size: 6rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+.lista-de-regras li{
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}               
+form label{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+form input{
+    padding: .8rem .4rem;
+}
+form button{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 2rem;
+    padding: 1rem;
+}

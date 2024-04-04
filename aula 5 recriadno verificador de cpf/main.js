@@ -31,6 +31,6 @@ class ValidaCpf{
 
 }
 
-const cpf = new ValidaCpf('794.798.201.53');
+const cpf = new ValidaCpf('972.840.650-95');
 cpf.validador()
 console.log(cpf)
